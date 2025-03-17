@@ -41,10 +41,10 @@ Replace the placeholder values with your actual Firebase credentials.
 Start the Vite development server to preview the app:
 npm run dev
 
-## Production Build: Compile the project for production, generating optimized files in the dist folder:
-npm run build
-## Preview Production Build: Serve the production build locally to test the deployed version:
-npm run preview
+Production Build: Compile the project for production, generating optimized files in the dist folder:
+## npm run build
+Preview Production Build: Serve the production build locally to test the deployed version:
+## npm run preview
 
 ## Functionalities
 This project implements the following core and additional features:
@@ -72,18 +72,12 @@ Auto-scrolling to the latest message in the chat area.
 ## Responsive Design:
 Fully optimized for mobile, tablet, and desktop devices using CSS media queries.
 Adjusts padding, widths, and message sizes on smaller screens (e.g., max-width: 600px).
-Extra Features:
+## Extra Features:
 Smooth animations for page transitions (fadeIn) and message appearances (slideIn).
 Enter key support for sending messages, enhancing usability.
 Modern styling with shadows, gradients, and hover effects for an engaging UI.
-Project Structure
-text
 
-Collapse
-
-Wrap
-
-Copy
+## Project Structure
 chat-ui/
 ├── public/
 │   └── vite.svg          # Placeholder logo image
@@ -101,7 +95,8 @@ chat-ui/
 ├── vite.config.js        # Vite configuration file
 ├── package.json          # Project metadata, dependencies, and scripts
 └── README.md             # Project documentation
-Notes
+
+## Notes
 Firebase Configuration: Ensure Email/Password authentication is enabled in the Firebase Console. Test users can be added manually under "Authentication" > "Users" for initial testing.
 Chat Model Limitation: The current model uses simple keyword-based responses. For a more advanced conversational AI, consider integrating an API like OpenAI (requires a backend or client-side API key).
 Local Storage: Chat history is stored in localStorage and persists until cleared by the browser. No mechanism is included to clear it programmatically—consider adding a "Clear Chat" button if needed.
